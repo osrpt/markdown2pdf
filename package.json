@@ -1,0 +1,21 @@
+{
+    "name": "markdown2pdf",
+    "main": "html/index.html",
+    "description": "markdown to pdf",
+    "version": "0.0.1",
+    "window": {
+        "title": "Markdown to Pdf",
+        "icon": "icons/icon-24.png",
+        "toolbar": false,
+        "frame": true,
+        "transparent": true,
+        "width": 700,
+        "height": 500,
+        "position": "center"
+    },
+    "maintainers": [{
+        "name": "massimo",
+        "email": "yangsibai@gmail.com",
+        "web": "http://sibo.me"
+    }]
+}
