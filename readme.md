@@ -1,5 +1,6 @@
 ##markdown2pdf
-markdown2pdf是一款将markdown文件转换为pdf的工具。
+markdown2pdf是一款将markdown文件转换为pdf的桌面小程序。
+
 目前只支持基本的markdown语法，不支持扩展语法，不支持图片。
 ##Dependencies
 1. node-webkit
