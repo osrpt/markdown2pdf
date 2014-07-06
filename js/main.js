@@ -1,11 +1,6 @@
 var markdownpdf = require("markdown-pdf"),
     gui = require('nw.gui');
 
-// fs.createReadStream("E:\\SkyDrive\\Work\\iRead\\Markdown Plan\\2013-12-13.md")
-//     .pipe(markdownpdf())
-//     .pipe(fs.createWriteStream("E:\\SkyDrive\\Work\\iRead\\Markdown Plan\\document.pdf"));
-
-
 function mainCtrl($scope, $http, $timeout) {
     $scope.file = "";
 
@@ -29,7 +24,6 @@ function mainCtrl($scope, $http, $timeout) {
         }
 
         markdownpdf({
-
             cssPath: "../customPDF.css"
         }).from(mdPaths).to(pdfPaths, function() {
             $scope.$apply(function() {
